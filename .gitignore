@@ -29,7 +29,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-# Usually these files are written by a script, but they might change between runs.
 *.spec
 
 # Installer logs
@@ -92,10 +91,12 @@ Thumbs.db
 *.onnx
 
 # Data files (IF TOO LARGE FOR GITHUB - uncomment and adjust if needed)
-# data/*.csv
-# data/images/
-# data/*.pkl
+# LabeledText.xlsx
+# Images/
 
 # Outputs / Logs
 logs/
 outputs/
+
+# NLTK Data
+nltk_data/
