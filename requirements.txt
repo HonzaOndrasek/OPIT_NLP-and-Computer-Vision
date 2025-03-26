@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+transformers
+pandas
+scikit-learn
+Pillow
+nltk
+openpyxl
+tqdm
+kaggle
