@@ -84,15 +84,20 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Model checkpoints & Large files (adjust as needed)
+# Model checkpoints
 *.pth
 *.pt
 *.bin
 *.onnx
 
-# Data files (IF TOO LARGE FOR GITHUB - uncomment and adjust if needed)
-# LabeledText.xlsx
-# Images/
+# Downloaded Dataset Files (from Kaggle or elsewhere)
+LabeledText.xlsx
+Images/
+*.zip
+*.tar.gz
+
+# Kaggle API credentials
+kaggle.json
 
 # Outputs / Logs
 logs/
