@@ -60,8 +60,7 @@ After downloading and extracting, your project's root directory should contain:
 To train and evaluate the multimodal model:
 ```bash
 python src/train.py
-Use code with caution.
-Markdown
+
 Configuration parameters (like batch size, epochs, learning rate, model names) can be adjusted in src/config.py.
 
 Project Structure
@@ -80,6 +79,6 @@ Project Structure
     ├── preprocess.py      # Dataset class, text/image preprocessing
     ├── models.py          # Multimodal model architecture
     └── train.py           # Main training and evaluation script
-Use code with caution.
+
 Results
 Performance metrics (Accuracy, Precision, Recall, F1-Score) on the test set will be printed to the console upon completion of the src/train.py script.
